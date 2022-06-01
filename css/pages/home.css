@@ -85,4 +85,28 @@ section.bg-main {
 /* MAIN - end */
 
 /* FOOTER - start */
+.footer-botom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fffa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer-botom > .logo {
+    height: 60px;
+    margin: 40px 0;
+}
+
+.footer-botom > .futeriukai {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-botom a {
+    color: #fff;
+    text-decoration: none;
+}
 /* FOOTER - end */
