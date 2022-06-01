@@ -5,6 +5,7 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 
+
 /* components */
 @import '../components/button.css';
 @import '../components/clock.css';
@@ -85,6 +86,19 @@ section.bg-main {
 /* MAIN - end */
 
 /* FOOTER - start */
+footer.container {
+    padding-top: 0;
+}
+
+.fa {
+    color: #000;
+}
+
+footer > .row {
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
+
 .footer-botom {
     display: flex;
     flex-direction: column;
