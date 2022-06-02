@@ -5,6 +5,7 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 
+
 /* components */
 @import '../components/button.css';
 @import '../components/clock.css';
@@ -85,4 +86,83 @@ section.bg-main {
 /* MAIN - end */
 
 /* FOOTER - start */
+footer.container {
+    padding-top: 0;
+}
+
+.fa {
+    font-size: 22px;
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
+    
+.socials > a {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--main-color);
+}
+
+.footer-botom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fffa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer-botom > .logo {
+    height: 60px;
+    margin: 40px 0;
+}
+
+.footer-botom > .futeriukai {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-botom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.futeriukai > * {
+    position: relative;
+}
+
+.futeriukai > *::after {
+    display: inline-block;
+    content: '';
+    width: 0.7px;
+    height: 20px;
+    background-color: #fffa;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+}
+
+.futeriukai > *:last-child:after {
+    display: none;
+}
 /* FOOTER - end */
