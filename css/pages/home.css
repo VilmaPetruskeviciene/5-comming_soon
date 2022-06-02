@@ -124,4 +124,24 @@ footer > .row {
     color: #fff;
     text-decoration: none;
 }
+
+.futeriukai > * {
+    position: relative;
+}
+
+.futeriukai > *::after {
+    display: inline-block;
+    content: '';
+    width: 0.7px;
+    height: 20px;
+    background-color: #fffa;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+}
+
+.futeriukai > *:last-child:after {
+    display: none;
+}
 /* FOOTER - end */
