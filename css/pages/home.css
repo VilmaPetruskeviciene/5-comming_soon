@@ -46,6 +46,23 @@ section.bg-main {
 .hero > .description {
     font-size: 20px;
 }
+
+.subscibe {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.form.subscibe > input {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.form.subscibe ::placeholder {
+    color: #fff;
+}
 /* HERO - end */
 
 /* MAIN - start */
@@ -169,6 +186,13 @@ footer.container {
 
 .futeriukai > *:last-child:after {
     display: none;
+}
+
+.back-to-top {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
 }
 /* FOOTER - end */
 
